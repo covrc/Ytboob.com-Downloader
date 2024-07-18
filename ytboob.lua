@@ -76,7 +76,6 @@ local function main()
 					link = string.match(url, domainPattern) .. link
 				else
 					link = url .. "/" .. link
-					print("aaaaaaaaaa")
 				end
             end
 
